@@ -1,37 +1,112 @@
-.headline {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 7em;
+.u-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20em;
+    color: black;
+    text-align: center;
+}
+
+.u-container h1 {
+  font-size: 9.75em;
+  font-weight: 700;
+  line-height: 1em;
+  font-family: 'BLM';
+  color: @brand-yellow;
+  margin: 0;
+  @media @mobile {
+    font-size: 4em;
+  }
+}
+
+.u-container p {
+  font-weight: 700;
+  font-size: 2em;
+  color: black;
+  // text-shadow: 4px 4px black;
+  background-color: white;
+  padding: 7px;
+  display: inline-block;
+  line-height: 1em;
   text-align: center;
+  margin: 0;
+  @media @mobile {
+  }
 }
 
-.headline h1 {
+.u-container-blurb {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.u-container-blurb h2 {
+  font-size: 3em;
+  font-weight: 500;
   font-family: @garamond;
-  font-size: 3.6em;
+  display: inline-block;
+  @media @mobile {
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
 
-.headline p {
+.u-container-intro {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    @media @mobile {
+      padding-top: 0;
+      padding-bottom: .5em;
+    }
 }
 
-.date {
-  text-transform: uppercase;
-  font-size: 12px;
+.u-container-intro h1 {
+  font-family: @garamond;
+  font-size: 2.6em;
+  color: black;
 }
 
-.lead-photo {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
+.u-container-intro p {
+  font-size: 16px;
+  font-family: @mallory;
+  color: black;
 }
 
-//////////////////////////////////////////
+.author {
+  color: black !important;
+  font-size: 15px !important;
+  font-family: @blm !important;
+}
+
+.headline {
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 55%, #FBE21B 45%);
+}
+
+.highlight-white {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 55%, #FFF 45%);
+}
+
+.highlight-full {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 55%, #FBE21B 45%);
+}
+
+
+  //////////////////////////////////////////////////////////////////////////////
+
+
 
 .u-container-text {
-    font-family: @garamond;
+    font-family: @crimson;
     font-size: 22.5px;
-    max-width: 700px;
+    max-width: 800px;
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -57,13 +132,12 @@
 
 .u-container-text h3 {
   font-family: @mallory;
-  font-size: 1.6em;
-  font-weight: 600;
-  padding: 20px;
+  font-weight: 700;
+  font-size: 1.35em;
   margin: 1em 0 1em 0;
   text-align: left;
   @media @mobile {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 }
 

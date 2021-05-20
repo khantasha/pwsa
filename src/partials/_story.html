@@ -1,0 +1,312 @@
+<!-- Story text, pullquotes, inline image, solution boxes and tooltip -->
+<div class="u-container-text">
+
+  <% story.sections.forEach(function(section, i) { %>
+
+    <!-- Story text -->
+    <% if(section.type == "text"){ %>
+      <%= t.renderMarkdown(story.sections[i].value) %>
+
+    <!-- Subhed -->
+    <% }else if(section.type == "subhed"){ %>
+      <div class="subhed">
+        <img alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+        <h2><%= section.value.text %></h2>
+      </div>
+
+    <!-- Inline aside -->
+    <% }else if(section.type == "inline-aside"){ %>
+      <img class="img-aside" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+
+    <!-- Question -->
+    <% }else if(section.type == "question"){ %>
+      <div class="container-question">
+        <div class="item-a">
+          <img class="question-image" alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+        </div>
+        <div class="item-b">
+          <p><%= section.value.text %></p>
+          <p><em><%= section.value.additionaltext %></em></p>
+        </div>
+      </div>
+
+    <!-- Video -->
+    <% }else if(section.type == "video"){ %>
+    <div class='embed-container'>
+      <iframe src='<%= section.value.videolink %>' frameborder='0' allowfullscreen></iframe>
+    </div>
+
+    <% }else if(section.type == "pullquote"){ %>
+    <div data-aos="fade-down"><h3><span class="highlight-full"><%= section.value.text %></span></h3></div>
+
+    <!-- Inline image -->
+    <% }else if(section.type == "inline-img"){ %>
+
+      <div class="inline-img">
+      <img alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+      <div class="caption">
+        <p><%= section.value.caption %></p>
+      </div>
+      </div>
+
+      <!-- Inline image ortega -->
+      <% }else if(section.type == "inline-img-right"){ %>
+        <div class="inline-img-right">
+        <img alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+        <div class="caption-inline-img">
+          <p><%= section.value.caption %></p>
+        </div>
+        </div>
+
+    <% }else if(section.type == "cta-box"){ %>
+      <div class="cta-box">
+        <em><%= section.value.text %></em>
+      </div>
+
+    <!-- Hero image + caption -->
+    <% }else if(section.type == "hero"){ %>
+      </div>
+        <div class="hero-image u-max-full-width">
+          <img alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
+        </div>
+        <div class="caption">
+          <p><%= section.value.caption %></p>
+        </div>
+      <div class="u-container-text">
+
+    <!-- Scrollama 1 -->
+    <% }else if(section.type == "scrollama1"){ %>
+      </div>
+      <section id='scrolly'>
+
+        <figure>
+          <img class="fadeIn" id='img1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+          <img id='img2' src="<%= section.value.img2 %>" alt="<%= section.value.alt2 %>">
+          <!-- <img id='img3' src="<%= section.value.img3 %>" alt="<%= section.value.alt3 %>"> -->
+          <!-- <img id='img4' src="<%= section.value.img4 %>" alt="<%= section.value.alt4 %>">
+          <img id='img5' src="<%= section.value.img5 %>" alt="<%= section.value.alt5 %>"> -->
+      	</figure>
+
+      	<article>
+          <div class='step' data-step='1'>
+            <p><%= section.value.text1 %></p>
+          </div>
+          <div class='step' data-step='2'>
+            <p><%= section.value.text2 %></p>
+          </div>
+          <div class='step' data-step='3'>
+            <h1 class="type-it">Screen test</h1>
+            <p>After a year of COVID school, students and districts reckon with ongoing struggles and lessons learned — and reach for hope.</p>
+            <p class="index-date">March 15, 2021</p>
+          </div>
+      	</article>
+
+      </section>
+
+      <div class="u-container-text">
+
+    <!-- Scrollama 2 -->
+    <% }else if(section.type == "scrollama2"){ %>
+      </div>
+      <p id="theresa"></p>
+      <section id='scrolly2'>
+
+        <figure>
+      		<img id='image1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+      	</figure>
+
+      	<article>
+      		<div class='step' data-step='1'>
+      			<h1><%= section.value.text1 %></h1>
+      		</div>
+      	</article>
+
+      </section>
+
+      <div class="u-container-text">
+
+      <!-- Scrollama 3-->
+      <% }else if(section.type == "scrollama3"){ %>
+        </div>
+        <p id="mason"></p>
+        <section id='scrolly3'>
+
+          <figure>
+        		<img id='photo1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+        	</figure>
+
+        	<article>
+        		<div class='step' data-step='1'>
+        			<h1><%= section.value.text1 %></h1>
+        		</div>
+        	</article>
+
+        </section>
+
+        <div class="u-container-text">
+
+      <!-- Scrollama 4-->
+      <% }else if(section.type == "scrollama4"){ %>
+        </div>
+        <p id="chloe"></p>
+        <section id='scrolly4'>
+
+          <figure>
+        		<img id='picture1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+        	</figure>
+
+        	<article>
+        		<div class='step' data-step='1'>
+        			<h1><%= section.value.text1 %></h1>
+        		</div>
+        	</article>
+
+        </section>
+
+        <div class="u-container-text">
+
+      <!-- Scrollama 5-->
+      <% }else if(section.type == "scrollama5"){ %>
+        </div>
+        <p id="bethany"></p>
+        <section id='scrolly5'>
+
+          <figure>
+            <img id='pic1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+          </figure>
+
+          <article>
+            <div class='step' data-step='1'>
+              <h1><%= section.value.text1 %></h1>
+            </div>
+          </article>
+
+        </section>
+
+        <div class="u-container-text">
+
+      <!-- Scrollama 6-->
+      <% }else if(section.type == "scrollama6"){ %>
+        </div>
+        <p id="april"></p>
+        <section id='scrolly6'>
+
+          <figure>
+            <img id='shot1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+          </figure>
+
+          <article>
+            <div class='step' data-step='1'>
+              <h1><%= section.value.text1 %></h1>
+            </div>
+          </article>
+
+        </section>
+
+        <div class="u-container-text">
+
+    <!-- Scrollama 7-->
+    <% }else if(section.type == "scrollama7"){ %>
+      </div>
+      <p id="briayelle"></p>
+      <section id='scrolly7'>
+
+        <figure>
+          <img id='horse1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+        </figure>
+
+        <article>
+          <div class='step' data-step='1'>
+            <h1><%= section.value.text1 %></h1>
+          </div>
+        </article>
+
+      </section>
+
+      <div class="u-container-text">
+
+      <!-- Scrollama 8-->
+      <% }else if(section.type == "scrollama8"){ %>
+        </div>
+        <p id="amy"></p>
+        <section id='scrolly8'>
+
+          <figure>
+            <img id='turtle1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+          </figure>
+
+          <article>
+            <div class='step' data-step='1'>
+              <h1><%= section.value.text1 %></h1>
+            </div>
+          </article>
+
+        </section>
+
+        <div class="u-container-text">
+
+        <!-- Scrollama 9-->
+        <% }else if(section.type == "scrollama9"){ %>
+          </div>
+          <p id="alex"></p>
+          <section id='scrolly9'>
+
+            <figure>
+              <img id='cat1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+            </figure>
+
+            <article>
+              <div class='step' data-step='1'>
+                <h1><%= section.value.text1 %></h1>
+              </div>
+            </article>
+
+          </section>
+
+          <div class="u-container-text">
+
+          <!-- Scrollama 10-->
+          <% }else if(section.type == "scrollama10"){ %>
+            </div>
+            <p id="rochelle"></p>
+            <section id='scrolly10'>
+
+              <figure>
+                <img id='dog1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+              </figure>
+
+              <article>
+                <div class='step' data-step='1'>
+                  <h1><%= section.value.text1 %></h1>
+                </div>
+              </article>
+
+            </section>
+
+            <div class="u-container-text">
+
+            <!-- Scrollama 11-->
+            <% }else if(section.type == "scrollama11"){ %>
+              </div>
+              <p id="rachel"></p>
+              <section id='scrolly11'>
+
+                <figure>
+                  <img id='bug1' src="<%= section.value.img1 %>" alt="<%= section.value.alt1 %>" class='is-visible'>
+                </figure>
+
+                <article>
+                  <div class='step' data-step='1'>
+                    <h1><%= section.value.text1 %></h1>
+                  </div>
+                </article>
+
+              </section>
+
+              <div class="u-container-text">
+
+<% } %>
+
+<% }); %>
+
+</div>
