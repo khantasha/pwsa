@@ -5,6 +5,20 @@ body {
   transition: background-color 1s ease;
 }
 
+.desktop-show {
+  display: block;
+  @media @mobile {
+    display: none;
+  }
+}
+
+.mobile-show {
+  display: none;
+  @media @mobile {
+    display: block;
+  }
+}
+
 /* panel styles */
 .panel-title {
   /* min height incase content is higher than window height */
@@ -13,8 +27,22 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* outline: 10px solid hotpink; */
-  /* turn above on to see the edge of panels */
+}
+
+/* panel styles */
+.panel-title-mobile {
+  /* min height incase content is higher than window height */
+  min-height: 150vh;
+  background-image: url("https://www.publicsource.org/wp-content/uploads/2021/05/rally_3633-square.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media @mobile-ipad {
+    min-height: 95vh;
+  }
+  @media @mobile-small {
+    min-height: 140vh;
+  }
 }
 
 /* panel styles */
