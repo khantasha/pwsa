@@ -72,18 +72,17 @@
         </div>
       <div class="u-container-text">
 
-      <!-- Multi image -->
-      <% }else if(section.type == "multi-image"){ %>
+    <!-- Multi image -->
+    <% }else if(section.type == "multi-image"){ %>
+      </div>
+        <div data-aos="fade-up" class="multi-image-wrapper">
+          <img alt="<%= section.value.alt1 %>" src="<%= section.value.img1 %>" />
+          <img alt="<%= section.value.alt2 %>" src="<%= section.value.img2 %>" />
         </div>
-          <div data-aos="fade-up" class="multi-image-wrapper">
-            <img alt="<%= section.value.alt1 %>" src="<%= section.value.img1 %>" />
-            <img alt="<%= section.value.alt2 %>" src="<%= section.value.img2 %>" />
-            <img alt="<%= section.value.alt2 %>" src="<%= section.value.img3 %>" />
-          </div>
-          <div class="caption">
-            <p><%= section.value.text %></p>
-          </div>
-        <div class="u-container-text">
+        <div class="caption">
+          <p><%= section.value.text %></p>
+        </div>
+      <div class="u-container-text">
 
     <!-- Hero image + caption -->
     <% }else if(section.type == "hero"){ %>
@@ -96,9 +95,22 @@
         </div>
       <div class="u-container-text">
 
-      <% }else if(section.type == "cta-box"){ %>
-        <div class="cta-box">
-          <em><%= section.value.text %></em>
+      <!-- Related stories -->
+      <% }else if(section.type == "inline-related-stories"){ %>
+        <div data-aos="fade-down" class="inline-related-stories">
+          <b><span class="highlight"><%= section.value.title %></span></b>
+          <p style="padding-bottom: 1em; padding-top: .5em;"><a href="#"><%= section.value.first %></a></p>
+          <p><a href="#"><%= section.value.second %></a></p>
+        </div>
+
+      <!-- Stats box -->
+      <% }else if(section.type == "stats-box"){ %>
+        <div data-aos="fade-down" class="stats-box">
+          <b><span class="highlight"><%= section.value.title %></span></b>
+          <p style="padding-bottom: 1em; padding-top: .5em;"><%= section.value.first %></p>
+          <p style="padding-bottom: 1em;"><%= section.value.second %></p>
+          <p style="padding-bottom: 1em;"><%= section.value.third %></p>
+          <p><%= section.value.fourth %></p>
         </div>
 
 <% } %>

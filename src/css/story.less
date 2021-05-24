@@ -1,5 +1,7 @@
+// Headline, author, date styles
+
 .headline {
-  max-width: 800px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 7em;
@@ -8,8 +10,8 @@
 
 .headline h1 {
   font-family: @garamond;
-  font-size: 3.4em;
-  font-weight: 500;
+  font-size: 3.6em;
+  // font-weight: 500;
   @media @mobile {
     font-size: 2.4em;
   }
@@ -30,7 +32,7 @@
   margin-top: 3em;
 }
 
-//////////////////////////////////////////
+// Story text
 
 .u-container-text {
     font-family: @garamond;
@@ -92,6 +94,10 @@
   text-decoration: none;
 }
 
+.u-container-text a {
+  text-decoration: underline;
+}
+
 // Photos
 
 .hero-image img {
@@ -101,7 +107,6 @@
     padding-top: .5em;
   }
 }
-
 
 .inline-img {
   width: 100%;
@@ -147,13 +152,12 @@
 .multi-image-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   column-gap: 10px;
-  row-gap: 10px;
-  padding: 20px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
   @media @mobile {s
     grid-template-columns: repeat(1, 1fr);
     row-gap: 5px;
@@ -167,6 +171,7 @@
   margin-right: auto;
   font-family: @mallory;
   color: grey;
+    font-size: 13px;
   @media @mobile {
     padding-bottom: 0;
     margin-left: 20px;
@@ -177,9 +182,77 @@
 
 .caption p {
   font-family: @mallory;
-  font-size: 12.5px;
   color: grey;
   @media @mobile {
-  font-size: 10px;
+  font-size: 11px;
+  }
+}
+
+// Related stories
+
+.inline-related-stories {
+  float: right;
+  font-family: @mallory;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-top: 1em;
+  border-left: 1px solid grey;
+  max-width: 285px;
+  @media @mobile {
+    max-width: 200px;
+    font-size: 13.5px;
+    line-height: 1.25em;
+    margin-bottom: 1.5em;
+  }
+}
+
+  .inline-related-stories p {
+    margin-bottom: 0 !important;
+  }
+
+  .inline-related-stories b {
+    padding-bottom: 5em !important;
+    @media @mobile {
+      font-size: 1.15em;
+    }
+  }
+
+  .inline-related-stories a {
+    color: @brand-black !important;
+  }
+
+  .inline-related-stories a:hover {
+    color: #418cff !important;
+  }
+
+// Stats boxx
+
+.stats-box {
+  float: left;
+  font-family: @mallory;
+  font-size: 16px;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-right: 1px solid grey;
+  max-width: 275px;
+  @media @mobile {
+    max-width: 200px;
+    font-size: 13.5px;
+    line-height: 1.25em;
+    margin-bottom: 1.5em;
+  }
+}
+
+.stats-box p {
+  margin-bottom: 0 !important;
+}
+
+.stats-box b {
+  padding-bottom: 5em !important;
+  @media @mobile {
+    font-size: 1.15em;
   }
 }
