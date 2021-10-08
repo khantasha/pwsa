@@ -42,7 +42,7 @@
     <!-- Inline image -->
     <% }else if(section.type == "inline-img"){ %>
 
-      <div class="inline-img">
+      <div data-aos="fade-down" class="inline-img">
       <img alt="<%= section.value.alt %>" src="<%= section.value.img %>" />
       <div class="caption">
         <p><%= section.value.caption %></p>
@@ -99,8 +99,8 @@
       <% }else if(section.type == "inline-related-stories"){ %>
         <div data-aos="fade-down" class="inline-related-stories">
           <b><span class="highlight"><%= section.value.title %></span></b>
-          <p style="padding-bottom: 1em; padding-top: .5em;"><a href="#"><%= section.value.first %></a></p>
-          <p><a href="#"><%= section.value.second %></a></p>
+          <p style="padding-bottom: 1em; padding-top: .5em;"><a href="<%= section.value.firstlink %>"><%= section.value.first %></a></p>
+          <p><a href="<%= section.value.secondlink %>"><%= section.value.second %></a></p>
         </div>
 
       <!-- Stats box -->

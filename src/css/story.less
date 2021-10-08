@@ -10,7 +10,7 @@
 
 .headline h1 {
   font-family: @garamond;
-  font-size: 3.4em;
+  font-size: 3.2em;
   // font-weight: 500;
   @media @mobile {
     font-size: 2.4em;
@@ -56,14 +56,14 @@
     @media @mobile {
       font-size: 21.5px;
       margin-top: 1.5em;
-      margin-left: 20px;
-      margin-right: 20px;
+      padding-left: 1em;
+      padding-right: 1em;
     }
 }
 
 .u-container-text h2 {
   text-align: center;
-  font-family: 'BLM';
+  font-family: 'BLM', Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   @media @mobile {
     font-size: 1.4em;
@@ -119,45 +119,46 @@
 }
 
 .inline-img {
+  float: left;
   width: 100%;
-  max-width: 1000px;
-  padding-top: 1em;
+  max-width: 400px;
+  padding: 0 25px 0 0;
   @background-color: @brand-grey;
   @media @mobile {
     width: 100%    !important;
     }
   }
 
-  .inline-img-right {
-    float: right;
-    padding: 0 0 10px 20px;
-    max-width: 350px;
-    @media @mobile {
-      max-width: 185px;
-    }
+.inline-img-right {
+  float: right;
+  padding: 0 0 10px 20px;
+  max-width: 350px;
+  @media @mobile {
+    max-width: 185px;
   }
+}
 
-  .inline-img-left {
-    float: left;
-    padding: 0 20px 10px 0;
-    max-width: 335px;
-    @media @mobile {
-      max-width: 185px;
-    }
+.inline-img-left {
+  float: left;
+  padding: 0 20px 10px 0;
+  max-width: 335px;
+  @media @mobile {
+    max-width: 185px;
   }
+}
 
-  .image-medium {
-    width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2em;
-    padding-bottom: .5em;
-    @media @mobile {
-      width: 90%    !important;
-      margin-right: 1em;
-      margin-left: 1em;
-    }
+.image-medium {
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: .5em;
+  @media @mobile {
+    width: 90%    !important;
+    margin-right: 1em;
+    margin-left: 1em;
   }
+}
 
 .multi-image-wrapper {
   display: grid;
@@ -168,9 +169,12 @@
   margin-right: auto;
   padding-top: 1.5em;
   padding-bottom: .5em;
-  @media @mobile {s
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 5px;
+  @media @mobile {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-gap: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 

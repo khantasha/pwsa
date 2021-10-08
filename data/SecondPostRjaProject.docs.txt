@@ -1,30 +1,37 @@
 [+sections]
 At the end of last summer, Anthony Kane was offered his dream job. 
 
+{.inline-related-stories} 
+title: More in this series
+first: Confronting racial inequities at Pittsburgh-area universities after George Floyd's murder has yielded pain and progress
+second: Podcast: Tuition isn’t free, and neither is emotional labor — A conversation with Pitt’s departing Black Action Society president.
+firstlink: ./story-1.html
+secondlink: https://www.publicsource.org/pitt-black-action-society-emotional-labor-podcast
+{}
 He spent the previous eight years managing residence halls and staff at Duquesne University. Now, the college was tapping him, a 31-year-old Black man, to be its new director of diversity and inclusion.
 
 It was not going to be easy. 
 
-{.inline-related-stories} 
-title: More in this series
-first: George Floyd's death launched a racial reckoning at Pittsburgh universities. A year later, what's changed?
-second: From the Source podcast: Tuition isn’t free, and neither is emotional labor — A conversation with Pitt’s Black Action Society president.
-{}
 The murder of George Floyd in Minneapolis spurred months of protests and calls for racial reckoning across institutions. Students were already grappling with the grief of a global pandemic and anticipating a tense presidential election that would set the national tone on social justice reform.
 
 Before Kane’s first day, he reached back to connections he’d made with student leaders at clubs like the Black Student Union. He wanted to hear what they thought needed to be done.
 
 “The first thing I knew was I needed to fit into this role from an authentic space,” Kane said.
 
+{.inline-img}
+img: https://www.publicsource.org/wp-content/uploads/2021/05/anthony_kane.jpg
+alt: headshot of Anthony Kane
+caption: Anthony Kane. (Courtesy photo)
+{} 
+
 Students wanted to be included in his work, to participate in planning programs and events meant to make the campus more inclusive, not just receive emails about negative incidents on campus.
-
-{.inline-img-left}
-img: https://www.publicsource.org/wp-content/uploads/2021/05/Justice-Protest-Layered-Photo-and-Text-Collage-Copy-3.png
-alt: photo illustration of duquense university building
-{}
 Kane’s challenge is one facing university leaders across the country. As universities respond to calls for reform, staff in diversity and inclusion offices can be a powerful connection between institutions that are often siloed and slow-moving and the students demanding changes in campus culture.
-
 Yvette Alex-Assensoh, a national voice on equity work from the University of Oregon, said colleges and universities need to go beyond statements and realize that all levels of the institution impact equity — from the final decision-makers to the types of research conducted and how and what students learn.
+
+{.inline-img-right}
+img: https://www.publicsource.org/wp-content/uploads/2021/05/Justice-Protest-Layered-Photo-and-Text-Collage-Copy-3-1-2.png
+alt: photo illustration of duquesne university building
+{}
 “We need to make sure that we are the kind of institution where we are not symbolically and proverbially having our knees on the neck of students, staff and faculty members because we're not hearing that they can't breathe,” said Alex-Assensoh, who serves as the university’s vice president of equity and inclusion.
 
 A year after the start of protests for racial justice, PublicSource examined diversity and inclusion efforts at four Pittsburgh-area campuses and how staff are working to empower students.
@@ -40,7 +47,7 @@ As a Black woman with Black children, Ayana Ledford did not see Floyd’s murder
 
 “So it wasn't brand new for me,” said Ledford, who will be promoted in July to associate dean of diversity, equity and inclusion in the Dietrich College of Humanities and Sciences at Carnegie Mellon University. “It wasn't some brand new heartbreak of racial divisions in our country. It has always existed.” 
 
-{.inline-img-right}
+{.inline-img-left}
 img: https://www.publicsource.org/wp-content/uploads/2021/05/Justice-Protest-Layered-Photo-and-Text-Collage-Copy-8.png
 alt: photo illustration of carnegie mellon university building
 {}
@@ -54,8 +61,8 @@ Faculty and staff were already working on the college’s strategic plan for div
 
 The college reviewed its hiring process to expand the pool of candidates and tried to redefine its role in the community by investing in outreach efforts. For example, the college created a program called LEAP, which will focus on arts and humanities for students at schools like City Charter High School to attend courses with college students. Ledford said the goal is to offer mentoring and build community relationships so Pittsburgh students consider CMU when applying to colleges.
 
-{.inline-img-left}
-img: https://www.publicsource.org/wp-content/uploads/2021/05/Justice-Protest-Layered-Photo-and-Text-Collage-Copy-4-1.png
+{.inline-img-right}
+img: https://www.publicsource.org/wp-content/uploads/2021/05/Justice-Protest-Layered-Photo-and-Text-Collage-Copy-4.png
 alt: photo illustration of chatham university building
 {}
 At the heart of it all, Ledford said the college has to ask a vital question: What is the role of an academic institution? 
@@ -76,7 +83,7 @@ text: “I'd say we're starting to move the needle in terms of how we recruit, h
 {.image-medium}
 img: https://www.publicsource.org/wp-content/uploads/2021/05/DarleneMotlet_5650-1.jpg
 alt: Darlene Motley standing in an office with books on the shelves.
-text: Darlene Motley is the dean of the School of Arts, Science & Business at Chatham University. She co-chairs a university council which has helped address issues of gender, concerns that some students have felt objectified and supporting trans students and LGBTQI rights.<br>(Photo by Ryan Loew/PublicSource)
+text: Darlene Motley is the dean of the School of Arts, Science & Business at Chatham University. She co-chairs a university council which has helped address issues of gender, LGBTQI rights and new initiatives after last summer’s racial justice protests.<br>(Photo by Ryan Loew/PublicSource)
 {}
 Five years ago, Motley had approached the university president with an idea. She wanted to bring together voices of students, staff and faculty to advise the president on issues of diversity and inclusion. 
 
@@ -99,8 +106,8 @@ In the early 2000s, he was approached by Community College of Allegheny County t
 
 At the time, departments dedicated to ethnicity, race and gender were more isolated and susceptible to budget cuts. 
 
-{.inline-img-right}
-img: https://www.publicsource.org/wp-content/uploads/2021/05/Justice-Protest-Layered-Photo-and-Text-Collage-Copy-2-1.png
+{.inline-img-left}
+img: https://www.publicsource.org/wp-content/uploads/2021/05/Justice-Protest-Layered-Photo-and-Text-Collage-Copy-2-2.png
 alt: photo illustration of university of pittsburgh building
 {}
 “What we ought to be looking at, rather than simply Black studies, is a department that deals with the concept of ethnicity and of all cultures,” Proctor said. “Approach it as the building of a department that dealt with multiculturalism.” 

@@ -3,11 +3,13 @@ It all happened so quickly for Morgan Ottley.
 She became president of a Black student organization at the University of Pittsburgh. A deadly virus forced classes online. And then there was the weight of grief. 
 The violent murder of Ahmaud Arbery. The brutal police killing of Breonna Taylor. 
 Both tragedies brought on yet another wave of fear as the reality of being Black in America meant looking over your shoulder and questioning the motives of police. 
-Ottley already faced an intimidating task as she prepared to lead the Black Action Society and its members through those anxieties and killings. Then the 22-year-old heard about the killing of George Floyd. Protests swept the nation.
+Ottley already faced an intimidating task as she prepared to lead the Black Action Society and its members through those anxieties and killings. Then the 22-year-old heard about the murder of George Floyd. Protests swept the nation.
 {.inline-related-stories} 
 title: More in this series
-first: Kept your promise: What have Pittsburgh colleges done to properly embrace Black students, staff and faculty
-second: From the Source podcast: Tuition isn’t free, and neither is emotional labor — A conversation with Pitt’s Black Action Society president.
+first: Keeping a promise: Can higher ed institutions answer the calls to embrace Black students, staff and faculty?
+second: Podcast: Tuition isn’t free, and neither is emotional labor — A conversation with Pitt’s departing Black Action Society president.
+firstlink: ./story-2.html
+secondlink: https://www.publicsource.org/pitt-black-action-society-emotional-labor-podcast/
 {}
 “We can’t just do nothing as the Black student organization on campus, like we can’t just sit here and be quiet,” said Ottley, who graduated with a neuroscience degree this May.
 Yet Pitt’s administration was quiet at first. With no response or reassurance from her school, she was frustrated. 
@@ -19,7 +21,7 @@ img1: https://www.publicsource.org/wp-content/uploads/2021/05/PSP_demo_0827-1.jp
 img2: https://www.publicsource.org/wp-content/uploads/2021/05/IMG_5894-1.jpg
 alt1: #
 alt2: #
-text: Following the death of George Floyd at the hands of police in Minneapolis on May 25, 2020, demonstrations around the country called for racial justice. Here in the Pittsburgh region, protesters filled the streets for months. (Photos by Ryan Loew and Jay Manning/PublicSource)
+text: Following the murder of George Floyd at the hands of a Minneapolis police officer on May 25, 2020, demonstrations around the country called for racial justice. Here in the Pittsburgh region, protesters filled the streets for months. (Photos by Ryan Loew and Jay Manning/PublicSource)
 {}
 More than a week after Floyd was killed, Pitt Chancellor Patrick Gallagher <a target="_blank" href="https://www.chancellor.pitt.edu/spotlight/statement-racial-injustice-and-death-george-floyd">posted a statement</a> saying the school stands in support of the Black faculty, students and staff while highlighting the injustice of Floyd’s death. “The painful truth is that persistent and systemic racism continues to fuel a deep injustice toward African Americans,” the statement said. 
 Ottley met with Pitt’s dean of students in early June and, through the summer and into the following school year, she dealt with meeting after meeting with university leadership to bring about a list of demands.
@@ -64,7 +66,7 @@ Jason England, an assistant creative writing professor who said he was not asked
 {.image-medium}
 img: https://www.publicsource.org/wp-content/uploads/2021/05/JasonEnglandPortrait-6-2.jpg
 alt: Jason England sitting in a studio.
-text: Jason England, an assistant creative writing professor at Carnegie Mellon University. (Photo by Quinn Glabicki/PublicSource)
+text: Jason England, an assistant creative writing professor at Carnegie Mellon University, has urged universities to do more in the face of racial injustice. (Photo by Quinn Glabicki/PublicSource)
 {}
 Scheines said the article provided thought-provoking questions on how universities discuss racism and why those responses can be ineffective.
 “We need to find ways to act effectively to improve our own communities — and it needs to be a priority,” Scheines said. “On that we agree.”
@@ -133,8 +135,8 @@ text: “There were days when I just wanted to exist. I just wanted to just be a
 {}
 {.image-medium}
 img: https://www.publicsource.org/wp-content/uploads/2021/05/MorganOttley_3775.jpg
-alt: Following George Floyd's killing, recent University of Pittsburgh graduate Morgan Ottley met with the Dean of Students and for the rest of the summer into the following school year, she dealt with meeting after meeting with university leadership to bring about a list of demands for change. (Photo by Ryan Loew/PublicSource)
-text: Following George Floyd's killing, recent University of Pittsburgh graduate Morgan Ottley met with university leadership to bring about a list of demands for change. (Photo by Ryan Loew/PublicSource)
+alt: Following George Floyd's murder, recent University of Pittsburgh graduate Morgan Ottley met with the Dean of Students and for the rest of the summer into the following school year, she dealt with meeting after meeting with university leadership to bring about a list of demands for change. (Photo by Ryan Loew/PublicSource)
+text: Following George Floyd's murder, recent University of Pittsburgh graduate Morgan Ottley met with university leadership to bring about a list of demands for change. (Photo by Ryan Loew/PublicSource)
 {} 
 To help cope, Ottley relied on her relationships as people in her life reminded her to think about who she was doing all this work for and what it could be like for future Black students. 
 She wants to see a campus where Black students are not only comfortable and safe but also feel acknowledged and happy.
